@@ -1,6 +1,6 @@
 # Darknet Markets Analysis & Business Intelligence
-In my undergraduate honor thesis of darknet markets analysis and business intelligence, I investigate the relation between sellers' lisitngs similarities and sellers' levels using a Python program. 
-After parsing 13,828 sample web pages using regular expression, all similarities scores of each pair of sellers are calculated by dov2vec as a class of gensim which is a Python library for topic modelling, document indexing and similarity retrieval with large corpora. By calculating correlations of listing similarities and seller levels of all sellers, the final result of -0.0031 indicates that there is no relation between sellers' listings similarities and sellers' levels. 
+In my honor thesis of darknet markets analysis and business intelligence, I investigated the relation between sellers' lisitngs similarities and sellers' levels using Gensim, a robust open-source vector space modeling and topic modeling toolkit implemented in Python. 
+First, I parsed 13,828 web pages using regular expression to obatin all sample data. Then, I calculated similarities scores of each pair of sellers using dov2vec as a part of Gensim for purposes of topic modelling, document indexing and similarity retrieval with large corpora. By calculating correlations of listing similarities and seller levels of all sellers, the final result of -0.0031 indicates that there is no relation between sellers' listings similarities and sellers' levels. 
 ## Please check out the full presentation vedio: https://www.youtube.com/watch?v=E97_Jhbfa8w
 ## Or a short demo: https://www.youtube.com/watch?v=Q9QGT2ydyVQ
 ### Please leave comments if you have any question, thanks!
